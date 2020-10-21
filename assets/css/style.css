@@ -1,15 +1,48 @@
-/* jenn part */
+ /*map part */  
 body {
     margin: 0%;
 }
-    
+
+.containerBlueMap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    background-color: #01B5D6;
+    text-align: center;
+    font-size: 2.6vw;
+    color: #ffffff;
+    width: 100%;
+}
+
+h2 { /* Titre page map */
+    font-family: 'Lobster', cursive;
+    font-size: 4vw;
+    text-shadow: 2px;
+    text-align: center;
+}
+
+.item3 {
+    flex-direction: column;
+}
+
+.marginItem3 {
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+.spanMap { /* Chiffres clés */
+    font-size: 5vw;
+}
+
+ /* footer */   
 footer {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 1fr;
     background-color: #ECECEC;
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
-    font-size: 2vw;
+    font-size: 1.5vw;
     list-style-type: none;
     grid-template-areas: 
         "one two three ."
@@ -58,7 +91,17 @@ footer {
 }
 
 
-/* responsive part */
+/* responsive part Map */
+@media screen and (max-width: 480px) {
+
+
+
+
+
+
+
+
+/* responsive part Footer */
 @media screen and (max-width: 480px) {
 
 .six {
@@ -83,7 +126,7 @@ footer {
 }
 /*interligne*/
 .ulFooter {
-        line-height: normal;
+    line-height: normal;
 }
 /*taille picto mobile version*/
 .imgPicto {
