@@ -2,7 +2,7 @@
 body {
     margin: 0;
 }
-ul {
+.navigation {
     display: flex;
     list-style-type: none;
     align-items: center;
@@ -317,4 +317,141 @@ button {
     text-decoration: none;
     color: #FFFFFF;
     font-family: 'Dosis', sans-serif;
+}
+ /*map part */  
+body {
+    margin: 0%;
+}
+
+.containerBlueMap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    background-color: #01B5D6;
+    text-align: center;
+    font-size: 2.6vw;
+    color: #ffffff;
+    width: 100%;
+}
+
+h2 { /* Titre page map */
+    font-family: 'Lobster', cursive;
+    font-size: 4vw;
+    text-shadow: 2px;
+    text-align: center;
+}
+
+.item3 {
+    flex-direction: column;
+}
+
+.marginItem3 {
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+.spanMap { /* Chiffres clés */
+    font-size: 5vw;
+}
+
+ /* footer */   
+footer {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 1fr;
+    background-color: #ECECEC;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 1.5vw;
+    list-style-type: none;
+    grid-template-areas: 
+        "one two three ."
+        "four five six seven";
+}
+
+.ulFooter {
+    line-height: 1.1em;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+    align-self: end;
+    margin-right: 5%;
+}
+
+/*taille picto desktop version*/
+.imgPicto {
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-bottom: 10%;
+}
+
+
+/* responsive part Map */
+@media screen and (max-width: 480px) {
+}
+
+
+
+
+
+
+
+
+/* responsive part Footer */
+@media screen and (max-width: 480px) {
+
+.six {
+    display: none;
+}
+.five {
+    display: none;
+}
+.seven {
+    margin-left: 85%;
+}
+
+footer {
+    font-size: 3vw;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "one"
+    "four"
+    "two"
+    "three"
+    "seven";
+}
+/*interligne*/
+.ulFooter {
+    line-height: normal;
+}
+/*taille picto mobile version*/
+.imgPicto {
+    width: 2.6vw;
+    height: 2.6vw;
+}
 }
