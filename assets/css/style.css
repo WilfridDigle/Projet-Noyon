@@ -146,3 +146,175 @@ header
         width: 40%;    
 }
 }
+/* Partie Thomas */
+
+body {
+    margin: 0;
+}
+
+.whiteContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #F7F7F7;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 4vw;
+    text-shadow: 2px 2px #0000001c;
+}
+
+.greyTitle {
+    color: #8D8B8B;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 3vw;
+    color: #FFFFFF;
+}
+
+.red {
+    background-color: #A7342F;
+    margin: 0;
+    width: 95%;
+}
+
+.blue {
+    background-color: #35B3C2;
+    margin: 0;
+    width: 95%;
+}
+
+.green {
+    background-color: #AFCC34;
+    margin: 0;
+    width: 95%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 5vh;
+    width: 100%;
+    height: 85vh;
+}
+
+.redBloc, .blueBloc, .greenBloc {
+    width: 25%;
+    height: 75%;
+    padding: 1%;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px #0000002c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+}
+
+.picture {
+    width: 95%;
+    height: 50%;
+}
+
+.redButton {
+    background-color: #A7342F;
+    width: 50%;
+    height: 6vh;
+}
+
+.blueButton {
+    background-color: #35B3C2;
+    width: 50%;
+    height: 6vh;
+}
+
+.greenButton {
+    background-color: #AFCC34;
+    width: 50%;
+    height: 6vh;
+}
+
+.greyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: #ECECEC;
+    width: 100%;
+    height: 100%;
+}
+
+.secondWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 5vh;
+    width: 100%;
+    height: 70vh;
+}
+
+.covid {
+    width: 40vw;
+    height: 60vh;
+    padding: 1%;
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px #0000002c;
+}
+
+.jaures {
+    width: 40vw;
+    height: 60vh;
+    padding: 1%;
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px #0000002c;
+}
+
+.pictureCovid {
+    width: 95%;
+    height: 73%;
+    border: solid  #F38D28 6px;
+}
+
+.pictureWorking {
+    width: 95%;
+    height: 73%;
+    border: solid  #F38D28 6px;
+}
+
+button {
+    border-style: none;
+}
+
+.orangeButton {
+    background-color: #F38D28;
+    width: 15%;
+    height: 6vh;
+    box-shadow: 2px 2px #0000002c;
+    margin-bottom: 2%;
+}
+
+.textButton {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Dosis', sans-serif;
+}
