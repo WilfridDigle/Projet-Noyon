@@ -1,0 +1,94 @@
+/* jenn part */
+body {
+    margin: 0%;
+}
+    
+footer {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 1fr;
+    background-color: #ECECEC;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 2vw;
+    list-style-type: none;
+    grid-template-areas: 
+        "one two three ."
+        "four five six seven";
+}
+
+.ulFooter {
+    line-height: 1.1em;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+    align-self: end;
+    margin-right: 5%;
+}
+
+/*taille picto desktop version*/
+.imgPicto {
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-bottom: 10%;
+}
+
+
+/* responsive part */
+@media screen and (max-width: 480px) {
+
+.six {
+    display: none;
+}
+.five {
+    display: none;
+}
+.seven {
+    margin-left: 85%;
+    margin-bottom: 10%;
+}
+
+footer {
+    font-size: 3vw;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "one"
+    "four"
+    "two"
+    "three"
+    "seven";
+}
+/*interligne*/
+.ulFooter {
+        line-height: normal;
+}
+/*taille picto mobile version*/
+.imgPicto {
+    width: 2.6vw;
+    height: 2.6vw;
+}
+}
