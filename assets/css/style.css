@@ -21,7 +21,9 @@ h2 { /* Titre page map */
     text-shadow: 2px;
     text-align: center;
 }
-
+.item1, .item2, .item3, {
+    width: 100%;
+}
 .item3 {
     flex-direction: column;
 }
@@ -33,6 +35,11 @@ h2 { /* Titre page map */
 
 .spanMap { /* Chiffres clés */
     font-size: 5vw;
+}
+
+.imgMap {
+width: 100%;
+
 }
 
  /* footer */   
@@ -93,6 +100,14 @@ footer {
 
 /* responsive part Map */
 @media screen and (max-width: 480px) {
+    .item1 {
+        display: none;
+    }
+
+    .item3 {
+        display: none;
+    }
+}
 
 
 
