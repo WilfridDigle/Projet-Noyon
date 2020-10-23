@@ -170,3 +170,68 @@ button {
     color: #FFFFFF;
     font-family: 'Dosis', sans-serif;
 }
+
+@media screen and (max-width: 480px) {
+    .title {
+        display: none;
+    }
+    
+    .whiteContainer {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 150vh;
+        background-color: #F7F7F7;
+    }
+    
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    p {
+        display: none;
+    }
+
+    .greyContainer {
+        justify-content: center;
+    }
+
+    .secondWrapper {
+        height: 40vh;
+    }
+
+    .redBloc, .blueBloc, .greenBloc {
+        width: 60vw;
+        height: 40vh;
+        padding: 3%;
+        margin: 10%;
+    }
+    
+    .covid {
+        display: none;
+    }
+    
+    .jaures {
+        width: 60vw;
+        height: 40vh;
+        padding: 3%;
+    }
+
+    .pictureWorking {
+        height: 18vh;
+    }
+
+    .textMobile {
+        display: flex;
+    }
+
+    .orangeButton {
+        width: 40%;
+    }
+
+    .red {
+        
+    }
+    
+}
